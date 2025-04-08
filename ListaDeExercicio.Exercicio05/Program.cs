@@ -19,7 +19,7 @@
             double salarioTotal = salarioBase + comissao;
 
             //output de dados
-            Console.WriteLine($"O salário total do vendedor é: {salarioTotal}");
+            Console.WriteLine($"O salário total do vendedor é: {salarioTotal:C2}");
 
             Console.ReadLine();
         }
